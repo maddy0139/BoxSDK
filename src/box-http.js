@@ -1,5 +1,6 @@
 'use strict';
 import "whatwg-fetch";
+var Promise = require('es6-promise').Promise;
 
 export default function BoxHttp(options) {
   if (options.upload) {

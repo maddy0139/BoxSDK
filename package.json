@@ -31,8 +31,8 @@
   "author": "AM Grobelny",
   "license": "Apache-2.0",
   "dependencies": {
-    "babel-polyfill": "^6.1.18",
-    "es6-promise": "^4.0.5",
+    "babel-polyfill": "^6.26.0",
+    "es6-promise": "^4.2.4",
     "rusha": "^0.8.6",
     "whatwg-fetch": "^2.0.2"
   }

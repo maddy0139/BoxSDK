@@ -8,13 +8,13 @@ var libraryName = 'BoxSdk';
 var plugins = [], outputFile;
 
 outputFile = libraryName + '.min.js';
-/*plugins.push(new UglifyJsPlugin({
+plugins.push(new UglifyJsPlugin({
   sourceMap: true,
   uglifyOptions: {
     compress: { warnings: false },
     ecma: 5
   }
-}));*/
+}));
 
 var config = {
   entry: __dirname + '/src/sdk.js',

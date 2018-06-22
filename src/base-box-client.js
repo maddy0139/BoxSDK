@@ -11,6 +11,7 @@ import Tasks from './managers/tasks';
 import Users from './managers/users';
 import BOX_CONSTANTS from './config/box-constants'
 import BoxHttp from './box-http';
+var Promise = require('es6-promise').Promise;
 
 export default class BaseBoxClient {
   constructor(config) {
